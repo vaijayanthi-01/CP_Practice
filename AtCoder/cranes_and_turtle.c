@@ -1,3 +1,12 @@
+/*Q: There are some animals in a garden. Each of them is a crane with two legs or a turtle with four legs.
+Takahashi says: "there are X animals in total in the garden, and they have Y legs in total." Determine whether there is a 
+combination of numbers of cranes and turtles in which this statement is correct.*/
+
+/*i/p: 3 8
+o/p: Yes
+The statement "there are 3 The statement "there are 8 legs in total" is correct if there are two cranes and one turtle.
+Thus, there is a combination of numbers of cranes and turtles in which the statement is correct.*/
+
 #include <stdio.h>
 
 int main(void) {
