@@ -22,7 +22,7 @@ int main()
         
         for(int x = 1; x < n-1; ++x)
         {
-            if(p[x] >= p[x-1] + p[x+1])
+            if(p[x-1] < p[x] && p[x] > p[x+1])
             {
                 flag = true;
                 i = x-1;
